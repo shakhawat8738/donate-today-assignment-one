@@ -3,7 +3,9 @@
         images/donation13.jpg
         
     );
+    height: 500px;
     margin-bottom: 100px;
+    
 }
 body{
     font-family:Arial, Helvetica, sans-serif ;
@@ -11,9 +13,10 @@ body{
 .floated-people-condition{
     text-align: center;
     color:white;
+    padding-top: 120px;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 .floated-people-condition a{
     text-decoration: none;
@@ -21,6 +24,7 @@ h1{
     color:white;
     padding:10px 20px;
     border-radius: 8px;
+    margin-top:30px;
 }
 .donation-description{
     text-align: center;
@@ -46,12 +50,80 @@ h1{
 .amount-of-money{
     text-align: center;
 }
-.amount-of-money a{
+.donation-button{
     background-color: rgb(244, 109, 85);
     padding:7px 3px;
-    margin-top:20px;
+    margin:20px;
     text-decoration: none;
     color:white;
-    border-radius: 8px;
+    border-radius: 5px;
     font-size: 20px;
+}
+.donate-plan{
+    text-align: center;
+
+}
+.donation-plan-section{
+    margin-top:100px;
+}
+.services{
+    display: flex;
+    margin-left:120px;
+}
+.service{
+    margin:50px;
+    border:2px solid red;
+    width:250px;
+    padding:20px;
+    height:250px;
+    background-color:rgb(183, 183, 222);
+}
+.service img{
+    width:20%;
+    text-align: center;
+}
+#education{
+    background-color: rgb(241, 212, 175);
+}
+#family{
+    background-color: rgb(200, 175, 144);
+}
+.updates{
+    text-align: center;
+}
+.get-update{
+    text-align: center;
+    margin-left: 370px;
+    width: 600px;
+    padding-top: 60px;
+    height: 80px;
+    background-color:rgb(243, 230, 214);
+}
+.email-input{
+    padding:10px;
+    border-radius: 5px;
+    border:0;
+    background-color: rgb(218, 225, 239);
+
+}
+.button-input{
+    padding: 10px;
+    border-radius: 5px;
+    border:0;
+    background-color: rgb(224, 49, 49);
+}
+.update-section{
+    margin-bottom: 100px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    padding:20px;
+}
+.footer h3{
+    color: rgb(238, 109, 86);
+}
+.footer p{
+    color:white;
 }
