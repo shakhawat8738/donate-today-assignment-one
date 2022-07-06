@@ -1,0 +1,57 @@
+.floated-people{
+    background-image: url(
+        images/donation13.jpg
+        
+    );
+    margin-bottom: 100px;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.floated-people-condition{
+    text-align: center;
+    color:white;
+}
+h1{
+    font-size: 40px;
+}
+.floated-people-condition a{
+    text-decoration: none;
+    background-color: rgb(218, 109, 90);
+    color:white;
+    padding:10px 20px;
+    border-radius: 8px;
+}
+.donation-description{
+    text-align: center;
+}
+.description-money{
+    display: flex;
+    text-align: center;
+    margin-left: 200px;
+}
+.money{
+    margin:30px;
+    font-size: 20px;
+    
+    background-color: rgb(228, 223, 223);
+   padding:25px 25px;
+   border-radius: 8px;
+}
+#red-money{
+    color:red;
+    border:1px solid red;
+    background-color: rgb(219, 174, 167);
+}
+.amount-of-money{
+    text-align: center;
+}
+.amount-of-money a{
+    background-color: rgb(244, 109, 85);
+    padding:7px 3px;
+    margin-top:20px;
+    text-decoration: none;
+    color:white;
+    border-radius: 8px;
+    font-size: 20px;
+}
